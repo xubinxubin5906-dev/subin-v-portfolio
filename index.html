@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio website for Subin V, aspiring web developer.">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>Subin V — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Subin V, home"><span class="brand-mark">S</span><span>Subin V<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Let’s talk <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIP OPPORTUNITIES</p>
+        <h1>Curious mind.<br><span>Thoughtful code.</span></h1>
+        <p class="hero-intro">Hi, I’m <strong>Subin V</strong> — an aspiring web developer learning to turn ideas into useful, easy-to-use web experiences.</p>
+        <div class="hero-actions"><a class="button button-dark" href="resume.pdf" download>Download résumé <span>↓</span></a><a class="button button-light" href="#contact">Contact me <span>↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN <strong>Kanyakumari, India</strong></span><span>FOCUS <strong>Web development</strong></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="portrait-frame"><img src="assets/subin-v-profile.png" alt="Subin V wearing a black suit and tie"></div>
+        <div class="floating-card float-top"><span class="mini-icon">✳</span><span>Building<br><strong>with purpose</strong></span></div>
+        <div class="floating-card float-bottom"><span class="code-icon">&lt;/&gt;</span><span>HTML · CSS · JS<br><strong>Always learning</strong></span></div>
+        <span class="visual-caption">A LITTLE ABOUT ME&nbsp; ↘</span>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Areas of interest"><div class="ticker-track"><span>FRONTEND DEVELOPMENT</span><i>✳</i><span>CREATIVE PROBLEM SOLVING</span><i>✳</i><span>ACCESSIBLE DESIGN</span><i>✳</i><span>CONTINUOUS LEARNING</span><i>✳</i><span>FRONTEND DEVELOPMENT</span><i>✳</i><span>CREATIVE PROBLEM SOLVING</span><i>✳</i><span>ACCESSIBLE DESIGN</span><i>✳</i></div></div>
+
+    <section class="section-shell about-section" id="about">
+      <div class="section-heading"><p class="eyebrow">01 — A LITTLE INTRODUCTION</p><h2>Creating things<br>that make sense.</h2></div>
+      <div class="about-copy"><p class="lead">I’m a B.Tech student in Artificial Intelligence and Data Science, interested in building clear and useful web experiences.</p><p>I’m developing my frontend skills through coursework, guided learning, and hands-on projects. I enjoy learning how websites work and improving the details that make them easy to use.</p><div class="objective"><span class="objective-icon">↗</span><div><strong>MY CAREER OBJECTIVE</strong><p>To begin my career as a web developer intern, contribute to real projects, and grow my skills with a collaborative development team.</p></div></div></div>
+    </section>
+
+    <section class="skills-section" id="skills"><div class="section-shell"><div class="section-heading"><p class="eyebrow">02 — MY TOOLKIT</p><h2>Skills I’m building.</h2><p class="section-subtitle">A growing toolkit for designing, building, and improving web experiences.</p></div><div class="skills-grid">
+      <article class="skill-card"><span class="skill-number">01</span><h3>Programming</h3><div class="skill-tags"><span>JavaScript</span></div></article>
+      <article class="skill-card"><span class="skill-number">02</span><h3>Frontend</h3><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      <article class="skill-card"><span class="skill-number">03</span><h3>Backend</h3><div class="skill-tags"><span>Currently learning</span></div></article>
+      <article class="skill-card"><span class="skill-number">04</span><h3>Database</h3><div class="skill-tags"><span>To be added</span></div></article>
+      <article class="skill-card"><span class="skill-number">05</span><h3>Tools</h3><div class="skill-tags"><span>GitHub</span><span>VS Code</span></div></article>
+      <article class="skill-card skill-note"><span class="note-star">✳</span><h3>Always learning</h3><p>Building practical web development skills through study and hands-on projects.</p></article>
+    </div></div></section>
+
+    <section class="section-shell projects-section" id="projects"><div class="section-heading projects-heading"><div><p class="eyebrow">03 — SELECTED WORK</p><h2>Projects with purpose.</h2></div><span class="project-count">A FEW THINGS I’VE BUILT&nbsp; ↘</span></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-image project-shop"><img src="assets/project-shop.svg" alt="Illustration of an online electronics shop interface"></div><div class="project-info"><div class="project-title-row"><h3>ShopEase</h3><span class="project-index">IN PROGRESS</span></div><p>A frontend online store concept for browsing electronics. Current features include product search and filters, sorting, product details, cart, wishlist, and a demo checkout. Backend and real payments are not implemented.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/xubinxubin5906-dev" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a></div></div></article>
+      </div><p class="placeholder-note">Add two more projects you have actually built before submitting this portfolio for an assignment that requires three.</p>
+    </section>
+
+    <section class="resume-section"><div class="section-shell resume-grid"><div><p class="eyebrow">04 — THE BACKGROUND</p><h2>Learning by doing.</h2><p class="section-subtitle">My education, certifications, and experience so far.</p></div><div class="resume-column">
+      <div class="resume-block"><h3>Education</h3><article class="timeline-item"><span class="timeline-date">Expected 2028</span><div><h4>B.Tech, Artificial Intelligence and Data Science</h4><p>Dhanalakshmi Srinivasan Engineering College</p><span class="result-chip">CGPA: 8.0</span></div></article></div>
+      <div class="resume-block"><h3>Learning Experience</h3><article class="timeline-item"><span class="timeline-date">Current</span><div><h4>Web Development Learner</h4><p>Kiwistron</p><p class="timeline-detail">Currently learning. Add the program dates and specific topics or activities you complete.</p></div></article></div>
+      <div class="resume-block"><h3>Certifications</h3><article class="timeline-item"><span class="timeline-date">2025</span><div><h4>Introduction to Internet of Things</h4><p>NPTEL · 12-week course · Score: 66</p></div></article></div>
+    </div></div></section>
+
+    <section class="contact-section" id="contact"><div class="section-shell contact-grid"><div class="contact-copy"><p class="eyebrow">05 — SAY HELLO</p><h2>Have a good<br>opportunity?</h2><p>I’m looking for web developer internship opportunities and ways to keep learning through real projects.</p><div class="contact-details"><a href="mailto:xubinxubin5906@gmail.com">xubinxubin5906@gmail.com <span>↗</span></a><span>Kanyakumari, India</span></div><div class="social-links"><a href="https://github.com/xubinxubin5906-dev" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/subin-v-101448342" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+      <form class="contact-form" id="contactForm"><h3>Send a message</h3><p class="form-hint">This form opens your email app with your message ready to send.</p><label for="senderName">Your name</label><input id="senderName" name="name" autocomplete="name" placeholder="Jane Smith" required><label for="senderEmail">Email address</label><input id="senderEmail" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required><label for="senderMessage">Message</label><textarea id="senderMessage" name="message" rows="4" placeholder="What would you like to talk about?" required></textarea><button class="button button-dark" type="submit">Prepare email <span>↗</span></button><p class="form-status" id="formStatus" role="status"></p></form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="section-shell footer-inner"><a class="brand" href="#home"><span class="brand-mark">S</span><span>Subin V<span class="brand-dot">.</span></span></a><p>Designed and built with care · <span id="currentYear"></span></p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
